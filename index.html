@@ -9,24 +9,6 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    <div id="ai-test-launcher" style="position:fixed;right:20px;bottom:20px;z-index:999999;">
-  <button onclick="document.getElementById('ai-test-box').style.display='block'" style="padding:12px 18px;border:none;border-radius:12px;cursor:pointer;background:#111;color:#fff;">
-    Відкрити AI Manager
-  </button>
-</div>
-
-<div id="ai-test-box" style="display:none;position:fixed;right:20px;bottom:80px;width:420px;height:700px;z-index:999999;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,.3);">
-  <div style="height:44px;display:flex;align-items:center;justify-content:space-between;padding:0 12px;background:#111;color:#fff;font-family:Arial,sans-serif;">
-    <span>AI Manager Test</span>
-    <button onclick="document.getElementById('ai-test-box').style.display='none'" style="background:none;border:none;color:#fff;font-size:20px;cursor:pointer;">×</button>
-  </div>
-  <iframe
-    src="https://aimanager-production-ed46.up.railway.app/projects"
-    width="100%"
-    height="calc(100% - 44px)"
-    style="border:0;"
-  ></iframe>
-</div>
   </body>
 </html>
 
